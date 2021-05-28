@@ -7,13 +7,12 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header class="header">
-        <section class="main-header">
             <div class="container header-container">
                 <a class="link-logo link" href="./index.html"><span class="firts-logo-word">Web</span>Studio</a>
                 <nav class="navigation">
@@ -29,12 +28,11 @@
                     <li class="tel-item"><a class="tel-link link" href="tel:+380991111111">+38 099 111 11 11</a></li>
                 </ul>
             </div>
-        </section>
     </header>
 
     <main class="main">
         <section class="hero">
-            <div class="container hero-container">
+            <div class="container">
                 <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
                 <button class="modal-btn" type="button">Заказать услугу</button>
             </div>
@@ -85,23 +83,31 @@
                 <ul class="team-list list">
                     <li class="team-item">
                         <img class="team-img" src="./img/our-team/img.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                        <h3 class="team-memder-name">Игорь Демьяненко</h3>
-                        <p class="team-memder-prof" lang="en">Product Designer</p>
+                        <div class="teammate-about">
+                            <h3 class="team-memder-name">Игорь Демьяненко</h3>
+                            <p class="team-memder-prof" lang="en">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img class="team-img" src="./img/our-team/img-1.jpg" alt="Ольга Репина" width="270" height="260">
-                        <h3 class="team-memder-name">Ольга Репина</h3>
-                        <p class="team-memder-prof" lang="en">Frontend Developer</p>
+                        <div class="teammate-about">
+                            <h3 class="team-memder-name">Ольга Репина</h3>
+                            <p class="team-memder-prof" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img class="team-img" src="./img/our-team/img-2.jpg" alt="Николай Тарасов" width="270" height="260">
-                        <h3 class="team-memder-name">Николай Тарасов</h3>
-                        <p class="team-memder-prof" lang="en">Marketing</p>
+                        <div class="teammate-about">
+                            <h3 class="team-memder-name">Николай Тарасов</h3>
+                            <p class="team-memder-prof" lang="en">Marketing</p>
+                        </div>
                     </li >
                     <li class="team-item">
                         <img class="team-img" src="./img/our-team/img-3.jpg" alt="Михаил Ермаков" width="270" height="260">
-                        <h3 class="team-memder-name">Михаил Ермаков</h3>
-                        <p class="team-memder-prof" lang="en">UI Designer</p>
+                        <div class="teammate-about">
+                            <h3 class="team-memder-name">Михаил Ермаков</h3>
+                            <p class="team-memder-prof" lang="en">UI Designer</p>
+                        </div>
                     </li> 
                 </ul>
             </div>

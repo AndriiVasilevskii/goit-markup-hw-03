@@ -49,7 +49,7 @@ body {
 }
 
 /* ================HEADER================ */
-.main-header {
+.header {
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
@@ -135,9 +135,6 @@ body {
 .hero {
   text-align: center;
   background-color: #2f303a;
-}
-
-.hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -275,8 +272,9 @@ body {
   margin-top: 30px;
 }
 
-.team-img {
-  margin-bottom: 30px;
+.teammate-about {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-memder-name {
@@ -289,7 +287,6 @@ body {
 }
 
 .team-memder-prof {
-  margin-bottom: 30px;
   text-align: center;
   font-size: 16px;
   line-height: 1.18;
@@ -308,7 +305,6 @@ body {
   text-align: center;
   margin-left: 302px;
   margin-right: 301px;
-  padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -342,12 +338,12 @@ body {
 
 /* ======== PARTFOLIO SERVICES=========== */
 
-.services-img {
-  margin-bottom: 30px;
+.services {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .services-img-list {
-  margin-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -363,6 +359,11 @@ body {
   border: 1px solid #eeeeee;
 }
 
+.services-about {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .services-subtitle {
   margin-bottom: 4px;
   margin-left: 24px;
@@ -373,7 +374,6 @@ body {
 }
 
 .services-paragraf {
-  margin-bottom: 20px;
   margin-left: 24px;
 }
 
