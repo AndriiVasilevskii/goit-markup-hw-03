@@ -299,16 +299,18 @@ body {
 /* ===================PARTFOLIO============= */
 
 /* ===============PARTFOLIO BUTTONS========= */
+
 .buttons {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  margin-left: 302px;
-  margin-right: 301px;
+  padding-left: 280px;
+  padding-right: 279px;
   padding-bottom: 50px;
 }
 
 .partfolio-btn {
+  margin-right: 8px;
   padding: 6px 22px;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -346,35 +348,37 @@ body {
 .services-img-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  /* margin-left: -24px;
-    margin-top: -24px; */
+    margin-left: -24px;
+  margin-top: -24px;
 }
 
 .services-img-item {
   margin-bottom: 30px;
-  /* flex-basis: calc((100% - 72px) / 3);
-    margin-left: 24px;
-    margin-top: 24px; */
-  border: 1px solid #eeeeee;
+  flex-basis: calc((100% - 72px) / 3);
+  margin-left: 24px;
+  margin-top: 24px;
+  
 }
 
 .services-about {
+  width: 370px;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  border: 1px solid #eeeeee;
 }
 
 .services-subtitle {
   margin-bottom: 4px;
-  margin-left: 24px;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  
 }
 
 .services-paragraf {
-  margin-left: 24px;
+  color: var(--grey-color);
 }
 
 /* =======END OF PARTFOLIO DERVICES====== */
